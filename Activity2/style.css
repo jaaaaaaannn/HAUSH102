@@ -1,0 +1,25 @@
+body {
+	margin:0; 
+	background-color: #34495e; 
+	color: #ecf0f1;
+}
+h1 {
+	padding:25px; 
+	margin-top: 0; 
+	background-color: #2980b9;
+}
+.avatar-holder { text-align: center; }
+.avatar-holder img { width: 25%; }
+.info-holder { margin: 0 25px; }
+.info-holder .address p { background-color: #2980b9; padding: 25px; }
+.section1 { 
+	background-color: #2980b9; 
+	margin-bottom:15px; 
+	padding: 25px; 
+}
+.section1 p { margin-left:10px; }
+.section2 { background-color: #2980b9; 
+	margin-bottom:15px; 
+	padding: 25px; 
+}
+.section2 p { margin-left: 10px; }
