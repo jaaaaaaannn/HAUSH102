@@ -1,0 +1,14 @@
+@media screen and (max-width: 768px){
+	.item {
+		float: left;
+		width: 100%;
+	}
+	.glyphicon { 
+		display: block;
+		cursor: pointer;
+		transition: .5s ease-in-out;
+	}
+	.glyphicon:hover {
+		color: #37A4FF;
+	}
+}
