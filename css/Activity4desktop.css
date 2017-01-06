@@ -1,0 +1,30 @@
+.content{
+	text-align: center;
+}
+.box:hover{
+	height: 250px;
+	border: 2px solid gray;
+	background-color: darkorange;
+	margin: 10px;
+}
+.box{
+	height: 250px;
+	border: 2px solid gray;
+	background-color: orange;
+	margin: 10px;
+}
+.item{
+	float: left;
+	width: 33%;
+}
+.header{
+	background-color: black;
+	color: white;
+	padding: 20px;
+}
+body{
+	margin: 0px;
+}
+.glyphicon{
+	display: none;
+}
