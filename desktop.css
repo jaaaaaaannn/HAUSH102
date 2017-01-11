@@ -1,0 +1,16 @@
+.item div
+    {
+        height: 250px;
+        background-color: black;
+        margin:10px;
+    }
+.item
+    {
+        width: 33.3333%;
+        float: left;
+
+    }
+body
+    {
+        margin: 0;  
+    }
