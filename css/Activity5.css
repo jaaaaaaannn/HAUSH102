@@ -1,0 +1,38 @@
+.box:hover{
+	height: 250px;
+	border: 2px solid gray;
+	background-color: darkorange;
+	margin: 10px;
+}
+.box{
+	height: 250px;
+	border: 2px solid gray;
+	background-color: orange;
+	margin: 10px;
+}
+.jumbotron{
+	background-color: black;
+	color: orange;
+}
+body{
+	margin: 0px;
+	background-color: grey;
+}
+.custom{
+	vertical-align: middle;
+	display: inline-block;
+}
+
+.custom-padding { 
+	padding: 0 50px;
+	margin-bottom: 50px;
+}
+.form-control { 
+	margin-bottom: 15px; 
+}
+.msg-form { 
+	resize: none;
+}
+.btn-holder .btn { 
+	width: 200px;
+}
