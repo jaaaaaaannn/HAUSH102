@@ -21,7 +21,7 @@ div.box
 	}
 @media screen and (max-width:768px)
 	{
-		button
+		.btn
 			{
 				width: 100%;
 			}
