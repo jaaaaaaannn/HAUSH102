@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>My Page</title>
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+	<link rel="stylesheet" href="css/Activity5.css">
+</head>
+<body>
+<div class="header">
+		<h1>Pulido, Joshua Rom O.</h1>
+	</div>
+<div class="container custom-padding">
+	<div class="row col-xs-12">
+		<h3>Contact</h3>
+		<form name="addressform">
+			<input type="email" class="form-control email-form" name="email" placeholder="EMAIL">
+			<input type="text" class="form-control name-form" name="fullname" placeholder="FULLNAME">
+			<input type="text" class="form-control name-form" name="contact" placeholder="CONTACT">
+			<div class="btn-holder text-right">
+				<button class="btn btn-default" onclick="if(document.addressform.email.value=='' || document.addressform.fullname.value=='' || document.addressform.contact.value==''){window.alert('no blanks allowed!');}
+					else{window.alert('Hello ' + document.addressform.fullname.value  + ' ' + document.addressform.email.value);}">SUBMIT</button>
+			</div>
+		</form>
+	</div>
+</div>
+</body>
+</html>
