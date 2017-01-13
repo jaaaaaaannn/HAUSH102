@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Activity 6</title>
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+	 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+	 <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+	 <link rel="stylesheet" type="text/css" href="Activity6style.css">
+</head>
+<body>
+
+<h2 align="center">Cris Ian N. David</h2>
+<br />
+<h3 align="center">CONTACT</h3>
+ 
+ <form name="addressform">
+
+
+  <div><input type="email" name="youremail" class="form-control email-control"  placeholder="E-Mail">
+  <input type="text" name="yourname" class="form-control name-control" placeholder="Full Name">
+  <input type="text" name="yourcontact" class="form-control msg-control" placeholder="Contact"></div>
+<div class= "btn-holder text-center">
+  <button class="btn btn-default" onclick="if(document.addressform.youremail.value=='' || document.addressform.yourname.value=='' || document.addressform.yourcontact.value==''){window.alert('cannot be empty');}
+  else{window.alert(' Sent ' + document.addressform.yourname.value);}"> Send</button>
+</div>
+
+</form>
+
+	
+
+</body>
+
+<script src="jquery-3.1.1.min.js"></script>
+
+</html>
