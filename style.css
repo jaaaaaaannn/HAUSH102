@@ -1,0 +1,18 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+.header{
+    color: black;
+    background-color: #98FB98;
+    width: 1310px;
+    height: 15px;
+    padding: 40px;
+    font-size: 300px:; 
+    margin: 0px;
+}
+
+.form{
+    border: 2px black;
+    border-radius: 4px;
+}

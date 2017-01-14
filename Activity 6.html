@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Activity 6</title>
+	<meta charset="utf-8">
+	 <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <link rel="stylesheet" type="text/css" href="style.css" media="screen and (min-width:769px)">
+<link rel="stylesheet" type="text/css" href="style.css" media="screen and (max-width:768px)">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+</head>
+<body>
+
+<div>
+	<h1 class="header">Hazelle Tayag</h1>
+</div>
+<div>
+	<center>
+		<form name="addressform">
+		<h2>Contact</h2>
+		<input type="text" name="myemail" placeholder="EMAIL"><br>
+		<input type="text" name="myname" placeholder="FULL NAME"><br>
+		<input type="text" name="mycontact" placeholder="CONTACT"><br>
+
+
+		<button onclick="if(document.addressform.myemail.value=='' || document.addressform.myname.value=='' || document.addressform.mycontact.value==''){window.alert('All fields must be field out.');}
+		else{window.alert('Hello ' + document.addressform.myname.value + '!');}">SUBMIT
+		</button>
+		</form>
+	</center>
+</div>
+
+</body>
+</html>
