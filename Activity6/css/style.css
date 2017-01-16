@@ -1,0 +1,8 @@
+.form-holder {
+	margin: 20px;
+	padding: 50px 100px;
+	background-color: #eee;
+	border-radius: 3px;
+}
+.form-holder .btn-holder { margin-top: 50px; }
+.btn.btn-primary { margin-right: 15px; }
