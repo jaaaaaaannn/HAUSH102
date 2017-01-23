@@ -1,0 +1,53 @@
+body p {
+	margin: 0;
+	padding: 0;
+}
+.message-box-holder {
+	width: 60%;
+	height: 70vh;
+	margin: auto;
+	margin-top: 50px;
+	padding: 0;
+	padding-bottom: 74px;
+	background-color: #bdc3c7;
+}
+.message-output-holder {
+	width: 100%;
+	height: 100%;
+	border-bottom: 1px solid #e3e3e3;
+	overflow-y: scroll;
+}
+.message-output-holder div:nth-of-type(even) {
+	background-color: #ecf0f1;
+}
+.message-holder {
+	padding: 20px;
+}
+.profile-image, .simsimi-image {
+	width: 50px;
+	height: 50px;
+}
+.profile-image {
+	margin-right: 20px;
+}
+.simsimi-image {
+	display: inline-block;
+	margin-left: 20px;
+}
+.simsimi-message-holder {
+	padding: 20px;
+	text-align: right;
+}
+.simsimi-message-holder p {
+	display: inline-block;
+}
+.message-info {
+	display: inline-block;
+}
+.message-input-holder {
+	height: 100%;
+	padding: 20px;
+}
+.send-button {
+	width: 100%;
+}
