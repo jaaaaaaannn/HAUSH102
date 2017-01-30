@@ -1,5 +1,11 @@
 jQuery(document).ready(function() {
 
+	jQuery("#message-input").keypress(function(event) {
+		if (event.keyCode == 13) {
+                    $("#send-button").click();
+                }
+	});
+
 	jQuery("#send-button").click(function() {
 		var inputMessage = jQuery("#message-input").val();
 
