@@ -1,0 +1,50 @@
+body .display-holder {
+  margin: 200px; }
+  body .display-holder h2 {
+    margin: 0; }
+  body .display-holder .option-holder {
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-pack: center;
+        justify-content: center; }
+    body .display-holder .option-holder .form-control {
+      margin-right: 10px;
+      width: 100px; }
+
+body .user-holder .user-info {
+  padding: 30px;
+  display: -ms-flexbox;
+  display: flex; }
+  body .user-holder .user-info:nth-child(odd) {
+    background-color: #ecf0f1; }
+  body .user-holder .user-info:nth-child(even) {
+    background-color: #1abc9c; }
+  body .user-holder .user-info .avatar-holder {
+    text-align: center;
+    margin: 0 30px;
+    width: 80px;
+    height: 80px;
+    background-color: #2c3e50;
+    border-radius: 100%; }
+    body .user-holder .user-info .avatar-holder .avatar {
+      position: relative;
+      top: 10px;
+      font-size: 40px;
+      color: #fff; }
+  body .user-holder .user-info .text-holder {
+    color: #000; }
+    body .user-holder .user-info .text-holder .upper-text {
+      margin-bottom: 40px; }
+      body .user-holder .user-info .text-holder .upper-text .fullname {
+        margin: 0; }
+      body .user-holder .user-info .text-holder .upper-text .username {
+        font-size: 20px; }
+        body .user-holder .user-info .text-holder .upper-text .username::before {
+          content: '@';
+          position: relative;
+          top: -1px;
+          margin-right: 3px; }
+    body .user-holder .user-info .text-holder .lower-text {
+      font-size: 16px; }
+      body .user-holder .user-info .text-holder .lower-text .phrase::before, body .user-holder .user-info .text-holder .lower-text .phrase::after {
+        content: '"'; }
