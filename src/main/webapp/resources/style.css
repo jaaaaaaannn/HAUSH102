@@ -1,0 +1,40 @@
+.panel-body
+{
+    overflow-y: scroll;
+    height: 300px;
+}
+
+.margin-top{
+	margin-top: 10px;
+}
+
+.result-output
+{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.result-output li
+{
+    margin-bottom: 10px;
+    padding-bottom: 5px;
+    border-bottom: 1px dotted #B3A9A9;
+}
+
+.result-output li.left .result-body
+{
+    margin-left: 60px;
+}
+
+.result-output li.right .result-body
+{
+    margin-right: 60px;
+}
+
+
+.result-output li .result-body p
+{
+    margin: 0;
+    color: #777777;
+}
