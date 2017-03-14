@@ -1,0 +1,33 @@
+body p {
+	margin: 0;
+	padding: 0;
+}
+.message-box-holder {
+	width: 60%;
+	height: 70vh;
+	margin: auto;
+	margin-top: 50px;
+	padding: 0;
+	padding-bottom: 74px;
+}
+.message-output-holder {
+	width: 100%;
+	height: 100%;
+	border: 1px solid #e3e3e3;
+	overflow-y: scroll;
+}
+.message-holder {
+	padding: 20px;
+	border-bottom: 2px s	olid #e3e3e3;
+}
+.message-input-holder {
+	height: 45%;
+	padding: 20px;
+}
+.send-button {
+	width: 100%;
+}
+.form-group{
+	margin: 20px;
+	padding: 20px;
+}

@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Final Exam</title>
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+</head>
+<body>
+	<div class="message-box-holder">
+		<div class="message-output-holder">
+		<!-- Message Output -->
+		</div>
+		<div class="message-input-holder">
+			<div class="row">
+				<div class="form-group">
+			        <label class="col-xs-offset-2 col-xs-2 control-label">TYPE:</label>
+			        <div class="col-xs-5 selectContainer">
+			            <select class="form-control" id="operation">
+			                <option value="add">Add</option>
+			                <option value="subtract">Subtract</option>
+			                <option value="multiply">Multiply</option>
+			                <option value="divide">Divide</option>
+			            </select>
+			        </div>
+			    </div>
+			    <div class="form-group">
+			        <label class="col-xs-offset-2 col-xs-2 control-label">INPUT 1:</label>
+			        <div class="col-xs-5">
+			            <input type="text" class="form-control" id="input1" />
+			        </div>
+			    </div>
+			    <div class="form-group">
+			        <label class="col-xs-offset-2 col-xs-2 control-label">INPUT 2:</label>
+			        <div class="col-xs-5">
+			            <input type="text" class="form-control" id="input2" />
+			        </div>
+			    </div>
+			    <div class="form-group">
+			        <div class="col-xs-3 col-xs-offset-6">
+			            <button type="submit" class="btn btn-primary btn-md send-button" id="submitbtn">Submit</button>
+			        </div>
+			    </div>
+			</div>
+		</div>
+	</div>
+
+	<script type="text/javascript" src="https://code.jquery.com/jquery-3.1.1.js"></script>
+	<script type="text/javascript" src="scripts/script.js"></script>
+</body>
+</html>
